@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cliente</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cliente</h1>
+    </header>
+    <div class="container">
+        <h1><%= cliente.nome %></h1>
+        <p>Email: <%= cliente.email %></p>
+        <p>Telefone: <%= cliente.telefone %></p>
+        <a href="/clientes/edit/<%= cliente.id %>">Editar</a>
+        <a href="/">Voltar</a>
+    </div>
+</body>
+</html>
